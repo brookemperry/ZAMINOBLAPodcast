@@ -1,6 +1,6 @@
 package com.example.android.zaminoblapodcast;
 
-import android.content.Context;
+import android.app.Activity;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -11,9 +11,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+//I read https://medium.com/mindorks/custom-array-adapters-made-easy-b6c4930560dd for help
+
 public class PodcastAdapter extends ArrayAdapter<Podcast> {
 
-    public PodcastAdapter(Context context, ArrayList<Podcast> listing){
+    //Constructor
+    public PodcastAdapter(Activity context, ArrayList<Podcast> listing) {
         super(context, 0, listing);
     }
 

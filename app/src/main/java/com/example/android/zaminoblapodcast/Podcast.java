@@ -2,20 +2,22 @@ package com.example.android.zaminoblapodcast;
 
 public class Podcast {
 
-    /**Podcast topic*/
+    /**
+     * This stores the Podcast topic
+     */
     private String mPodcastTopic;
 
-    /**Podcast Date*/
+    /**This stores the Podcast Date*/
     private String mDate;
 
-    /**Create a new Podcast object
+    /**Constructor to create a new Podcast object
      *
-     * @param podcastTopic
-     * @param date
+     * @param mPodcastTopic
+     * @param mDate
      */
-    public Podcast(String podcastTopic, String date){
-        mPodcastTopic = podcastTopic;
-        mDate = date;
+    public Podcast(String mPodcastTopic, String mDate) {
+        this.mPodcastTopic = mPodcastTopic;
+        this.mDate = mDate;
     }
 
    /**Get the podcast topic*/

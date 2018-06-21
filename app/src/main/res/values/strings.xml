@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">ZAMI NOBLA Podcast</string>
     <string name="zami_nobla_logo">ZAMI NOBLA logo</string>
+    <string name="topic">Topic</string>
+    <string name="date">Date</string>
 </resources>

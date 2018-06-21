@@ -1,19 +1,21 @@
 package com.example.android.zaminoblapodcast;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.GridView;
-import android.widget.ListView;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.podcast_list);
+
+        //Key for listing items
+
 
     //List of podcasts
 
@@ -31,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         PodcastAdapter adapter = new PodcastAdapter(this,listing);
 
-        ListView listView = findViewById(R.id.pods);
-        listView.setAdapter(adapter);
+        GridView gridView = findViewById(R.id.pods);
+        gridView.setAdapter(adapter);
 
     }
 }

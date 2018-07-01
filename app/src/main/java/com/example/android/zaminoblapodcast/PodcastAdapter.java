@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-//I read https://medium.com/mindorks/custom-array-adapters-made-easy-b6c4930560dd for help
+//I read https://medium.com/mindorks/custom-array-adapters-made-easy-b6c4930560dd for additional help
 
 public class PodcastAdapter extends ArrayAdapter<Podcast> {
 
@@ -26,7 +26,7 @@ public class PodcastAdapter extends ArrayAdapter<Podcast> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.podcast_list, parent, false);
+                    R.layout.podcast_item, parent, false);
         }
         Podcast currentPodcast = getItem(position);
 

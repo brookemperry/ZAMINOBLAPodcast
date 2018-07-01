@@ -12,12 +12,12 @@ public class Podcast {
 
     /**Constructor to create a new Podcast object
      *
-     * @param mPodcastTopic
-     * @param mDate
+     * @param PodcastTopic
+     * @param date
      */
-    public Podcast(String mPodcastTopic, String mDate) {
-        this.mPodcastTopic = mPodcastTopic;
-        this.mDate = mDate;
+    public Podcast(String PodcastTopic, String date) {
+        this.mPodcastTopic = PodcastTopic;
+        this.mDate = date;
     }
 
    /**Get the podcast topic*/

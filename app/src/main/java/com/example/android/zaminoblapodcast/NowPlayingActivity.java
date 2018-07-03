@@ -10,10 +10,12 @@ import static com.example.android.zaminoblapodcast.MainActivity.playPodcast;
 
 public class NowPlayingActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_now_playing);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         String currentPodcast = "";
         String currentDate = "";

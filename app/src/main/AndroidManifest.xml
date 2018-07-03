@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NowPlayingActivity"
-            android:label="Now Playing">
+            android:label="Now Playing"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 

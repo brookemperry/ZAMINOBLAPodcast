@@ -43,7 +43,7 @@ public class NowPlayingActivity extends AppCompatActivity {
             public void onClick(View v) {
                 status.setImageResource(R.drawable.ic_pause_black_24dp);
 
-                getActionBar().setDisplayHomeAsUpEnabled(true);
+                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             }
         });
 

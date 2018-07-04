@@ -19,7 +19,7 @@
         </activity>
         <activity android:name=".NowPlayingActivity"
             android:label="Now Playing"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.zaminoblapodcast.MainActivity">
         </activity>
     </application>
 
